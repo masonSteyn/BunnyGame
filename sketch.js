@@ -125,7 +125,7 @@ function setup() {
 
 function draw() {
   background(51);
-  image(bg_img, 0, 0, canW, canH);
+  image(bg_img, 0, 0, displayWidth+80, displayHeight);
   rope1.show()
   rope2.show()
   push();
